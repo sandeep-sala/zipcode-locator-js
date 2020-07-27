@@ -13,8 +13,33 @@
 </head>
 
 <body>
-
+    <section class="zip_container_wrapper">
+        <div class="zip_container">
+            <h3>Zipcode Locator</h3>
+            <div style="display: flex;">
+                <input type="text" id="pincode_val" placeholder="Enter your Zipcode">
+                <div class="loader"></div>
+                <select id="contry-code">
+                </select>
+                <button onclick=" getLocation();">GO!</button>
+            </div>
+        </div>
+    </section>
+    <section class="zip_value_container_wrapper">
+        <div class="zip_value_container">
+            <div>
+                <p id="found_city"></p>
+            </div>
+            <div>
+                <p style="color: red;" id="error_message"></p>
+            </div>
+        </div>
+        <div class="zip_map_container">
+            <iframe id="map_result" src="https://maps.google.com/maps?q=india&output=embed"></iframe>
+        </div>
+    </section>
     <footer class="main-div_footer">made with ❤️ ~ <b>Sandeep Sala</b></footer>
+    <script src="src/js/constant.js"></script>
     <script src="src/js/app.js"></script>
 </body>
 

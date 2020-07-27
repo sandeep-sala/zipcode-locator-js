@@ -1,6 +1,6 @@
 # ZipCode Locator
 
-It locate the area of entered pincode/zipcode
+It locate the area of entered pincode/zipcode and display map
 
 ## Installation
 
@@ -20,4 +20,4 @@ open index.html in browser
 
 ## Screenshots
 
-![ScreenShot]()
+![ScreenShot](https://i.postimg.cc/prps4HCT/zipcode-locator.png)
