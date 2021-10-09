@@ -20,4 +20,4 @@ open index.html in browser
 
 ## Screenshots
 
-![ScreenShot](https://i.postimg.cc/prps4HCT/zipcode-locator.png)
+![ScreenShot](https://raw.githubusercontent.com/sandeep-sala/zipcode-locator/master/src/img/zipcode_locator.png)
